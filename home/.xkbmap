@@ -1185,11 +1185,11 @@ xkb_symbols "pc+us(workman-programmer)+inet(evdev)+capslock(swapescape)+keypad(o
     };
     key <AE02> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [              at,               2,     twosuperior, dead_doubleacute ]
+        symbols[Group1]= [ 2, at, twosuperior, U030B ]
     };
     key <AE03> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [      numbersign,               3,   threesuperior,     dead_macron ]
+        symbols[Group1]= [ numbersign, 3, threesuperior, U0304 ]
     };
     key <AE04> {
         type= "FOUR_LEVEL",
@@ -1197,31 +1197,31 @@ xkb_symbols "pc+us(workman-programmer)+inet(evdev)+capslock(swapescape)+keypad(o
     };
     key <AE05> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [         percent,               5,        EuroSign,    dead_cedilla ]
+        symbols[Group1]= [    percent, 5,      rcaron,     Rcaron  ]
     };
     key <AE06> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [ dead_circumflex,               6,      onequarter,     asciicircum ]
+        symbols[Group1]= [ asciicircum, 6, onequarter, U0302 ]
     };
     key <AE07> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [       ampersand,               7,         onehalf,       dead_horn ]
+        symbols[Group1]= [ ampersand, 7, onehalf, U031B ]
     };
     key <AE08> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [        asterisk,               8,   threequarters,     dead_ogonek ]
+        symbols[Group1]= [ asterisk, 8, threequarters, U0328 ]
     };
     key <AE09> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [       parenleft,               9, leftsinglequotemark,      dead_breve ]
+        symbols[Group1]= [  parenleft, 9, leftsinglequotemark, U0306 ]
     };
     key <AE10> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [      parenright,               0, rightsinglequotemark,  dead_abovering ]
+        symbols[Group1]= [  parenright, 0, rightsinglequotemark, U030A ]
     };
     key <AE11> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [           minus,      underscore,             yen,   dead_belowdot ]
+        symbols[Group1]= [ minus, underscore, yen, U0323 ]
     };
     key <AE12> {
         type= "FOUR_LEVEL",
@@ -1321,11 +1321,11 @@ xkb_symbols "pc+us(workman-programmer)+inet(evdev)+capslock(swapescape)+keypad(o
     };
     key <AC11> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [      dead_acute,  dead_diaeresis,      apostrophe,        quotedbl ]
+        symbols[Group1]= [apostrophe, quotedbl, U0301, U0308 ]
     };
     key <TLDE> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [      dead_grave,      dead_tilde,           grave,      asciitilde ]
+        symbols[Group1]= [grave, asciitilde, U0300, U0303 ]
     };
     key <LFSH> {         [         Shift_L ] };
     key <BKSL> {
@@ -1366,11 +1366,11 @@ xkb_symbols "pc+us(workman-programmer)+inet(evdev)+capslock(swapescape)+keypad(o
     };
     key <AB09> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [          period,         greater,   dead_abovedot,      dead_caron ]
+        symbols[Group1]= [ period, greater, U0307, U030C ]
     };
     key <AB10> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [           slash,        question,    questiondown,       dead_hook ]
+        symbols[Group1]= [ slash, question, questiondown, U0309 ]
     };
     key <RTSH> {         [         Shift_R ] };
     key <KPMU> {
