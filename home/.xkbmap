@@ -1185,7 +1185,7 @@ xkb_symbols "pc+us(workman-programmer)+inet(evdev)+capslock(swapescape)+keypad(o
     };
     key <AE02> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [ 2, at, twosuperior, U030B ]
+        symbols[Group1]= [ at, 2, twosuperior, U030B ]
     };
     key <AE03> {
         type= "FOUR_LEVEL",

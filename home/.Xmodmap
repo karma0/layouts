@@ -1,0 +1,97 @@
+!Intl mods
+keycode  24 = a A aacute Aacute ae AE ae
+keycode  26 = e E eacute Eacute EuroSign cent EuroSign
+keycode  30 = u U uacute Uacute downarrow uparrow downarrow
+keycode  31 = i I iacute Iacute rightarrow idotless rightarrow
+keycode  32 = o O oacute Oacute oslash Oslash oslash
+keycode  57 = n N ntilde Ntilde n N n
+!keycode  58 = comma question comma questiondown dead_acute dead_doubleacute dead_acute
+!keycode  61 = exclam section exclamdown section dead_belowdot dead_abovedot dead_belowdot
+!Maps the Mode key to the Alt key
+!keycode 64 = Mode_switch
+keycode  61 = slash question slash question questiondown U0309 questiondown
+keycode  20 = minus underscore minus underscore yen U0323 yen
+
+! Swap caps lock and escape
+remove Lock = Caps_Lock
+keysym Escape = Caps_Lock
+keysym Caps_Lock = Escape
+add Lock = Caps_Lock
+
+!Swap numbers and symbols
+keycode  10 = exclam 1 exclam 1 exclamdown onesuperior exclamdown
+keycode  11 = at 2 at 2 twosuperior U030B twosuperior
+keycode  12 = numbersign 3 numbersign 3 threesuperior U0304 threesuperior
+keycode  13 = dollar 4 dollar 4 currency sterling currency
+keycode  14 = percent 5 percent 5 rcaron Rcaron rcaron
+keycode  15 = asciicircum 6 asciicircum 6 onequarter U0302 onequarter
+keycode  16 = ampersand 7 ampersand 7 onehalf U031B onehalf
+keycode  17 = asterisk 8 asterisk 8 threequarters U0328 threequarters
+keycode  18 = parenleft 9 parenleft 9 leftsinglequotemark U0306 leftsinglequotemark
+keycode  19 = parenright 0 parenright 0 rightsinglequotemark U030A rightsinglequotemark
+!keycode  21 = equal plus equal plus multiply division multiply
+
+!ALT: Swap numbers and symbols
+!keycode 10 = exclam 1 1 exclam asciitilde dead_tilde asciitilde
+!keycode 11 = quotedbl 2 2 quotedbl dead_caron caron dead_caron
+!keycode 12 = numbersign 3 3 numbersign asciicircum dead_circumflex asciicircum
+!keycode 13 = dollar 4 4 dollar dead_breve breve dead_breve
+!keycode 14 = percent 5 5 percent degree dead_abovering degree
+!keycode 15 = ampersand 6 6 ampersand dead_ogonek ogonek dead_ogonek
+!keycode 16 = slash 7 7 slash grave dead_grave grave
+!keycode 17 = parenleft 8 8 parenleft dead_abovedot abovedot dead_abovedot
+!keycode 18 = parenright 9 9 parenright dead_acute apostrophe dead_acute
+keycode 19 = equal 0 0 equal dead_doubleacute doubleacute dead_doubleacute
+
+!Workman¡
+keycode  24 = q Q q Q adiaeresis Adiaeresis adiaeresis
+keycode  25 = d D d D eth ETH eth
+keycode  26 = r R r R registered registered registered
+keycode  27 = w W w W aring Aring aring
+keycode  28 = b B b B b B b
+keycode  29 = j J j J j J j
+keycode  30 = f F f F f F f
+keycode  31 = u U u U uacute Uacute uacute
+keycode  32 = p P p P odiaeresis Odiaeresis odiaeresis
+keycode  33 = semicolon colon semicolon colon paragraph degree paragraph
+keycode  34 = bracketleft braceleft bracketleft braceleft guillemotleft leftdoublequotemark guillemotleft
+keycode  35 = bracketright braceright bracketright braceright guillemotright rightdoublequotemark guillemotright
+keycode  36 = Return NoSymbol Return
+keycode  37 = Control_L NoSymbol Control_L
+keycode  38 = a A a A aacute Aacute aacute
+keycode  39 = s S s S ssharp section ssharp
+keycode  40 = h H h H h H h
+keycode  41 = t T t T thorn THORN thorn
+keycode  42 = g G g G g G g
+keycode  43 = y Y y Y udiaeresis Udiaeresis udiaeresis
+keycode  44 = n N n N ntilde Ntilde ntilde
+keycode  45 = e E e E eacute Eacute eacute
+keycode  46 = o O o O oacute Oacute oacute
+keycode  47 = i I i I iacute Iacute iacute
+keycode  48 = apostrophe quotedbl apostrophe quotedbl U0301 U0308 U0301
+keycode  49 = grave asciitilde grave asciitilde U0300 U0303 U0300
+keycode  50 = Shift_L NoSymbol Shift_L
+keycode  51 = backslash bar backslash bar notsign brokenbar notsign
+keycode  52 = z Z z Z ae AE ae
+keycode  53 = x X x X x X x
+keycode  54 = m M m M mu mu mu
+keycode  55 = c C c C copyright cent copyright
+keycode  56 = v V v V v V v
+keycode  57 = k K k K oe OE oe
+keycode  58 = l L l L oslash Oslash oslash
+
+!Swap numpad from bottom->top to top->bottom
+keycode  79 = KP_Home KP_1 KP_Home KP_1 a NoSymbol a
+keycode  80 = KP_Up KP_2 KP_Up KP_2 b NoSymbol b
+keycode  81 = KP_Prior KP_3 KP_Prior KP_3 c NoSymbol c
+keycode  82 = KP_Subtract minus KP_Subtract minus dollar NoSymbol dollar
+keycode  83 = KP_Left KP_4 KP_Left KP_4 d NoSymbol d
+keycode  84 = KP_Begin KP_5 KP_Begin KP_5 e NoSymbol e
+keycode  85 = KP_Right KP_6 KP_Right KP_6 f NoSymbol f
+keycode  86 = KP_Add plus KP_Add plus comma NoSymbol comma
+keycode  87 = KP_End KP_7 KP_End KP_7 equal NoSymbol equal
+keycode  88 = KP_Down KP_8 KP_Down KP_8 x NoSymbol x
+keycode  89 = KP_Next KP_9 KP_Next KP_9 colon NoSymbol colon
+keycode  90 = KP_Insert KP_0 KP_Insert KP_0 backslash NoSymbol backslash
+keycode  91 = KP_Delete KP_Decimal KP_Delete KP_Decimal
+keycode  92 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
