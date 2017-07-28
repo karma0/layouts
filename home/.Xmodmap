@@ -29,7 +29,7 @@ keycode  16 = ampersand 7 ampersand 7 onehalf U031B onehalf
 keycode  17 = asterisk 8 asterisk 8 threequarters U0328 threequarters
 keycode  18 = parenleft 9 parenleft 9 leftsinglequotemark U0306 leftsinglequotemark
 keycode  19 = parenright 0 parenright 0 rightsinglequotemark U030A rightsinglequotemark
-!keycode  21 = equal plus equal plus multiply division multiply
+keycode  21 = equal plus equal plus multiply division multiply
 
 !ALT: Swap numbers and symbols
 !keycode 10 = exclam 1 1 exclam asciitilde dead_tilde asciitilde
@@ -41,7 +41,7 @@ keycode  19 = parenright 0 parenright 0 rightsinglequotemark U030A rightsinglequ
 !keycode 16 = slash 7 7 slash grave dead_grave grave
 !keycode 17 = parenleft 8 8 parenleft dead_abovedot abovedot dead_abovedot
 !keycode 18 = parenright 9 9 parenright dead_acute apostrophe dead_acute
-keycode 19 = equal 0 0 equal dead_doubleacute doubleacute dead_doubleacute
+!keycode 19 = equal 0 0 equal dead_doubleacute doubleacute dead_doubleacute
 
 !Workman¡
 keycode  24 = q Q q Q adiaeresis Adiaeresis adiaeresis
